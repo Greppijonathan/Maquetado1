@@ -1,0 +1,151 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: white;
+    padding: 8px;
+}
+
+header h1 {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: auto;
+    /* Centra horizontalmente el texto */
+    margin-right: auto;
+    /* Centra horizontalmente el texto */
+    display: block;
+}
+
+header h2 {
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    margin-left: auto;
+    /* Centra horizontalmente el texto */
+    margin-right: auto;
+    /* Centra horizontalmente el texto */
+    display: block;
+}
+
+nav {
+    background-color: #b6ffff;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 0px;
+    padding: auto;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgb(77, 178, 218);
+}
+
+
+footer {
+    background-color: #b6ffff;
+    clear: both;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+nav ul a.activo {
+    background-color: rgb(77, 178, 218);
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente el contenido */
+    align-items: center;
+    /* Centra verticalmente el contenido */
+    height: 40vh;
+    /* Ajusta la altura del header al 100% del viewport */
+    padding: 5px;
+    margin: 10px;
+}
+
+.bienvenidos {
+    width: 50%;
+    padding: 16px;
+    box-sizing: border-box;
+    border: solid 1px rgb(77, 178, 218);
+}
+
+.carreras {
+    width: 50%;
+    padding: 16px;
+    border: solid 1px rgb(77, 178, 218);
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    border: solid rgb(77, 178, 218);
+    border-width: 1px;
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+.carreras p {
+    font-size: 20px;
+}
+
+.descripcion p {
+    font-style: 12px;
+}
+
+.contenedordepartamentos {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.depto {
+    border: 1px solid rgb(77, 178, 218);
+    ;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.depto img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(77, 178, 218);
+}
